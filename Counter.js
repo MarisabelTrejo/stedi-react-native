@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Accelerometer } from 'expo-sensors';
 import getSpikesFromAccelerometer from './utils/StepCalculator';
-
+//functional programming: uses functions insted of classes. Change searches on Google to functional react. 
 
 export default function Counter() {
   const data = useRef({
