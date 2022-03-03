@@ -56,7 +56,7 @@ if(userLoggedIn){
         />
          <Tab.Screen
           name='login'
-          component={login}
+          component={Login}
           options={{
             tabBarLabel: 'login',
             tabBarIcon: ({ color }) => (
@@ -71,7 +71,7 @@ if(userLoggedIn){
 
 
 }else{
-  return (<Login/>)
+  return (<Login setUserLoggedIn={setUserLoggedIn}/>)
 }
 } 
 
