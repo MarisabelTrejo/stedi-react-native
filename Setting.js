@@ -9,7 +9,7 @@ function Setting() {
       <View>
       <Button
       title="Log In"
-      onPress={() => console.log('Simple Button pressed')}
+      onPress={() => console.log('Simple Button Pressed')}
     />
       </View>
     )
