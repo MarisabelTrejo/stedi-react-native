@@ -28,7 +28,6 @@ if(userLoggedIn){
         <Tab.Screen
           name='Home'
           children = {()=><Home user_email={user_email}/>}
-          component={Home}
           options={{
             tabBarLabel: 'Home',
             tabBarIcon: ({ color }) => (
