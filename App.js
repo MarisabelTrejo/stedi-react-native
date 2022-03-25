@@ -47,7 +47,7 @@ if(userLoggedIn){
         />
         <Tab.Screen
           name='Settings'
-          component={SettingsScreen}
+          children={()=><SettingsScreen email={user_email}/>}
           options={{
             tabBarLabel: 'Settings',
             tabBarIcon: ({ color }) => (
@@ -55,7 +55,7 @@ if(userLoggedIn){
             ),
           }}
         />
-         <Tab.Screen
+         {/* <Tab.Screen
           name='login'
           component={Login}
           options={{
@@ -64,7 +64,7 @@ if(userLoggedIn){
               <FontAwesome name='gear' color={color} size={26} />
             ),
           }}
-/>
+/> */}
 
       </Tab.Navigator>
     </NavigationContainer>

@@ -5,6 +5,7 @@ function AppName(props) {
     return (
       <View style={styles.appName}>
         <Text style={styles.text}>Welcome {props.name}STEDI Balance</Text>
+        
       </View>
     );
   }
